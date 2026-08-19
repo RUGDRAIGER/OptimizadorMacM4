@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OptimizadorMacM4 — Descarga</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #0f1117;
+      --card: #1a1d27;
+      --text: #eef0f6;
+      --muted: #9aa3b2;
+      --accent: #7c5cff;
+      --accent-2: #3dd6c6;
+      --border: #2a3142;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f4f6fb;
+        --card: #ffffff;
+        --text: #111827;
+        --muted: #5b6475;
+        --border: #d8deea;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, rgba(124, 92, 255, 0.18), transparent 40%), var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .wrap {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 48px 20px 64px;
+    }
+    .badge {
+      display: inline-block;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: rgba(124, 92, 255, 0.15);
+      color: var(--accent);
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+    h1 {
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.1;
+      margin: 0 0 12px;
+    }
+    .subtitle {
+      color: var(--muted);
+      font-size: 1.1rem;
+      margin-bottom: 32px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 24px;
+      margin-bottom: 20px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.18);
+    }
+    .downloads {
+      display: grid;
+      gap: 12px;
+    }
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 16px 18px;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      text-decoration: none;
+      color: inherit;
+      background: rgba(124, 92, 255, 0.08);
+      transition: transform 0.15s ease, border-color 0.15s ease;
+    }
+    .btn:hover {
+      transform: translateY(-1px);
+      border-color: var(--accent);
+    }
+    .btn strong { display: block; font-size: 1rem; }
+    .btn span { color: var(--muted); font-size: 0.92rem; }
+    .btn .tag {
+      background: var(--accent);
+      color: white;
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      white-space: nowrap;
+    }
+    .btn.secondary {
+      background: rgba(61, 214, 198, 0.08);
+    }
+    ul { padding-left: 1.2rem; color: var(--muted); }
+    code {
+      background: rgba(127, 127, 127, 0.15);
+      padding: 2px 6px;
+      border-radius: 6px;
+      font-size: 0.92em;
+    }
+    footer {
+      margin-top: 28px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    a.repo { color: var(--accent-2); }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="badge">Apple Silicon · macOS 14+</div>
+    <h1>OptimizadorMacM4</h1>
+    <p class="subtitle">
+      Monitor de recursos M4, gestor de procesos en background y limpieza segura de cachés para macOS.
+    </p>
+
+    <section class="card">
+      <h2>Descargar versión <span id="version">0.0.1</span></h2>
+      <p>Elige el formato de instalación. No requiere dependencias externas: la app es nativa Swift.</p>
+      <div class="downloads">
+        <a class="btn" id="dmg-link" href="../releases/latest/download/OptimizadorMacM4-0.0.1.dmg">
+          <div>
+            <strong>OptimizadorMacM4.dmg</strong>
+            <span>Arrastra la app a Aplicaciones. Recomendado para probar rápido.</span>
+          </div>
+          <div class="tag">DMG</div>
+        </a>
+        <a class="btn secondary" id="pkg-link" href="../releases/latest/download/OptimizadorMacM4-0.0.1.pkg">
+          <div>
+            <strong>OptimizadorMacM4.pkg</strong>
+            <span>Instalador con comprobación de macOS 14+ antes de instalar.</span>
+          </div>
+          <div class="tag">PKG</div>
+        </a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Requisitos</h2>
+      <ul>
+        <li>macOS 14.0 (Sonoma) o superior</li>
+        <li>Mac con Apple Silicon (M1/M2/M3/M4)</li>
+        <li>No requiere Xcode ni Homebrew para usar la app instalada</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Instalación</h2>
+      <ol>
+        <li>Descarga el <strong>DMG</strong> o el <strong>PKG</strong>.</li>
+        <li>Con DMG: abre el disco, arrastra <code>OptimizadorMacM4.app</code> a Aplicaciones.</li>
+        <li>Con PKG: ejecuta el instalador y sigue los pasos.</li>
+        <li>La primera vez, macOS puede pedir confirmación en Ajustes → Privacidad y seguridad.</li>
+      </ol>
+    </section>
+
+    <footer>
+      Código fuente y releases en
+      <a class="repo" href="https://github.com/RUGDRAIGER/OptimizadorMacM4">github.com/RUGDRAIGER/OptimizadorMacM4</a>.
+    </footer>
+  </main>
+</body>
+</html>

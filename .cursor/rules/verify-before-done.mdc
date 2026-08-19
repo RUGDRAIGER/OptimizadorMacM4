@@ -1,0 +1,30 @@
+---
+description: Verificar funcionamiento antes de dar por terminado cualquier cambio
+alwaysApply: true
+---
+
+# Regla: Verificar antes de cerrar
+
+## Obligatorio en cada cambio
+
+1. **Compilar** con `xcodebuild` o `swift build` y confirmar éxito.
+2. **Ejecutar tests** relevantes (`xcodebuild test` o `swift test`) antes de reportar como listo.
+3. **Si falla**, corregir y repetir compilación + tests hasta que pasen.
+4. **No declarar "listo"** si el sidebar, monitor, procesos o limpieza no fueron verificados.
+
+## Checklist mínimo por tipo de cambio
+
+| Cambio | Verificación |
+| :--- | :--- |
+| UI / navegación | Build OK + sidebar cambia de pantalla al clic |
+| Monitor | Build OK + CPU y memoria muestran barras separadas |
+| Procesos | Build OK + nombres legibles (no `unknown`) |
+| Caché | Build OK + Dry Run no crashea |
+
+## Anti-Rationalization
+
+| Excusa | Regla |
+| :--- | :--- |
+| "Compila, debe funcionar" | Ejecutar tests y build reales. |
+| "El usuario probará después" | Verificar localmente primero. |
+| "Es un bug menor de UI" | Reintentar con otro enfoque hasta que responda al clic. |

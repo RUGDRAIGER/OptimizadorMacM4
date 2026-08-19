@@ -1,0 +1,170 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+		AF50D30645CE4838A9C66E8C /* OptimizadorMacM4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4519C86B9B8495C9A0B361C /* OptimizadorMacM4App.swift */; };
+		8F0D117169B84D0CA107CA36 /* CacheCleanerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF892707620475683AA3740 /* CacheCleanerView.swift */; };
+		12A832C2CB0B4F788CDBE4CE /* MainNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681FAAB0C3014737AAC5EE2C /* MainNavigationView.swift */; };
+		84CBE84BED2D4E2889F0B7A9 /* MonitorDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38237FD59A94880A7CC4172 /* MonitorDashboardView.swift */; };
+		BB9374BCDF3047BBAF7EA7A3 /* ProcessManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F058332571384B9EB143B8C5 /* ProcessManagerView.swift */; };
+		29B86E4649864CBB999E0062 /* ConfirmationSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E1DB2061AB4B4680046CE6 /* ConfirmationSheet.swift */; };
+		FCA95C130037416195266B54 /* MetricCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BCD21A7D714F16A3FDA298 /* MetricCard.swift */; };
+		328A35B9E53C43CFBFDFE6C4 /* PageContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F070F0E6377243EC92E9009C /* PageContainer.swift */; };
+		624ADE3CC55C4DA28D298644 /* ProcessActionButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F060C9DFF5604C0FA15C12BB /* ProcessActionButtons.swift */; };
+		C0439F508CBB466ABFB94300 /* CacheManagerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332E669AD4C4C4D9A25C5FB /* CacheManagerService.swift */; };
+		B32DE4985F094BE3A824BC18 /* CacheScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32229B139574F48A86B50EA /* CacheScanner.swift */; };
+		DCF1AD373C7D47E6A96619F4 /* LaunchAgentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E00A8087A3244BC909E7733 /* LaunchAgentManager.swift */; };
+		D46FDA6A371D4B498CCC7A01 /* ProcessFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2463CAE9B3D4AA398873A77 /* ProcessFilter.swift */; };
+		4A15CEA5064E4F3DAEDBADE7 /* ProcessManagerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08BA9E95F8C4F4686CDF658 /* ProcessManagerService.swift */; };
+		D37A1EA25F6E450C9735E942 /* ProcessTerminator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E884EB2366B64516AA219FC9 /* ProcessTerminator.swift */; };
+		66A80A91715342198894384D /* HostStatisticsReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF576BBC6A2F4BC5AFE9E46B /* HostStatisticsReader.swift */; };
+		FF0C10CCA7634990BC509E93 /* ProcessEnumerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E31E3ADCFB447796E7A560 /* ProcessEnumerator.swift */; };
+		982BF1E79F0F40A88945CCEC /* ResourceMonitorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0B49DC3A6E425CA4D62E34 /* ResourceMonitorService.swift */; };
+		706A9A86802140578E141F05 /* SysctlReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ACE4616A9B4187982B71BB /* SysctlReader.swift */; };
+		E974C25AEA1949D7851B8324 /* PathGuard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFEBF5D2D834EA18DB97979 /* PathGuard.swift */; };
+		F65291C1FCE644B49D5CEE22 /* SecurityValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F691925778243F39FD87999 /* SecurityValidator.swift */; };
+		141D564214704DC6B3D260E1 /* CPUMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436A554E8CC47BF824EE633 /* CPUMetrics.swift */; };
+		429BE05D49FF4DBA80F12F86 /* CacheEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45F3BE15F62446CAC81B4FB /* CacheEntry.swift */; };
+		A5121817A22B45C28FEC1096 /* MemoryMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92235392C1C34B8CAC4F125B /* MemoryMetrics.swift */; };
+		91B1CA7D0B354807A378F9B2 /* ProcessGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA28EE4F9EA0434A9F90D418 /* ProcessGroup.swift */; };
+		1D62853CA89E47019D45495C /* ProcessSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EF2B7B5579423795B26694 /* ProcessSnapshot.swift */; };
+		8D02F07CA7084CA39D832197 /* AppLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7290FDF6E492499B9E9FD58D /* AppLogger.swift */; };
+		B9D065B80C9F46B69EB58693 /* ByteFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FEE4BB8AED4F4EA7D85F6C /* ByteFormatter.swift */; };
+		781B99CA805A4D17A0771949 /* MemoryMetricsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F76490C1234E57B01F8492 /* MemoryMetricsTests.swift */; };
+		CCAC6D9F3C664417A9CDE980 /* PathGuardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D0E36EECCC487F92E58059 /* PathGuardTests.swift */; };
+		E064D2AC1C76463282CF5895 /* ProcessFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44ECED1F62422A9F330532 /* ProcessFilterTests.swift */; };
+		B1431C1ADA14474F89A6880C /* ProcessGroupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6413ABF1F5C44802AE3863C2 /* ProcessGroupTests.swift */; };
+		3EF8003E41C34585B296BC83 /* SecurityValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE3FD91F1A4D719698C895 /* SecurityValidatorTests.swift */; };
+		B4519C86B9B8495C9A0B361C /* OptimizadorMacM4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OptimizadorMacM4App.swift; path = OptimizadorMacM4/OptimizadorMacM4App.swift; sourceTree = SOURCE_ROOT; };
+		0CF892707620475683AA3740 /* CacheCleanerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CacheCleanerView.swift; path = OptimizadorMacM4/UI/CacheCleanerView.swift; sourceTree = SOURCE_ROOT; };
+		681FAAB0C3014737AAC5EE2C /* MainNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainNavigationView.swift; path = OptimizadorMacM4/UI/MainNavigationView.swift; sourceTree = SOURCE_ROOT; };
+		B38237FD59A94880A7CC4172 /* MonitorDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MonitorDashboardView.swift; path = OptimizadorMacM4/UI/MonitorDashboardView.swift; sourceTree = SOURCE_ROOT; };
+		F058332571384B9EB143B8C5 /* ProcessManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProcessManagerView.swift; path = OptimizadorMacM4/UI/ProcessManagerView.swift; sourceTree = SOURCE_ROOT; };
+		20E1DB2061AB4B4680046CE6 /* ConfirmationSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ConfirmationSheet.swift; path = OptimizadorMacM4/UI/Components/ConfirmationSheet.swift; sourceTree = SOURCE_ROOT; };
+		14BCD21A7D714F16A3FDA298 /* MetricCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MetricCard.swift; path = OptimizadorMacM4/UI/Components/MetricCard.swift; sourceTree = SOURCE_ROOT; };
+		F070F0E6377243EC92E9009C /* PageContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PageContainer.swift; path = OptimizadorMacM4/UI/Components/PageContainer.swift; sourceTree = SOURCE_ROOT; };
+		F060C9DFF5604C0FA15C12BB /* ProcessActionButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProcessActionButtons.swift; path = OptimizadorMacM4/UI/Components/ProcessActionButtons.swift; sourceTree = SOURCE_ROOT; };
+		B332E669AD4C4C4D9A25C5FB /* CacheManagerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CacheManagerService.swift; path = OptimizadorMacM4/Core/Cache/CacheManagerService.swift; sourceTree = SOURCE_ROOT; };
+		C32229B139574F48A86B50EA /* CacheScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CacheScanner.swift; path = OptimizadorMacM4/Core/Cache/CacheScanner.swift; sourceTree = SOURCE_ROOT; };
+		4E00A8087A3244BC909E7733 /* LaunchAgentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LaunchAgentManager.swift; path = OptimizadorMacM4/Core/Processes/LaunchAgentManager.swift; sourceTree = SOURCE_ROOT; };
+		C2463CAE9B3D4AA398873A77 /* ProcessFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProcessFilter.swift; path = OptimizadorMacM4/Core/Processes/ProcessFilter.swift; sourceTree = SOURCE_ROOT; };
+		B08BA9E95F8C4F4686CDF658 /* ProcessManagerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProcessManagerService.swift; path = OptimizadorMacM4/Core/Processes/ProcessManagerService.swift; sourceTree = SOURCE_ROOT; };
+		E884EB2366B64516AA219FC9 /* ProcessTerminator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProcessTerminator.swift; path = OptimizadorMacM4/Core/Processes/ProcessTerminator.swift; sourceTree = SOURCE_ROOT; };
+		FF576BBC6A2F4BC5AFE9E46B /* HostStatisticsReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HostStatisticsReader.swift; path = OptimizadorMacM4/Core/Monitoring/HostStatisticsReader.swift; sourceTree = SOURCE_ROOT; };
+		F8E31E3ADCFB447796E7A560 /* ProcessEnumerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProcessEnumerator.swift; path = OptimizadorMacM4/Core/Monitoring/ProcessEnumerator.swift; sourceTree = SOURCE_ROOT; };
+		9E0B49DC3A6E425CA4D62E34 /* ResourceMonitorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResourceMonitorService.swift; path = OptimizadorMacM4/Core/Monitoring/ResourceMonitorService.swift; sourceTree = SOURCE_ROOT; };
+		F8ACE4616A9B4187982B71BB /* SysctlReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SysctlReader.swift; path = OptimizadorMacM4/Core/Monitoring/SysctlReader.swift; sourceTree = SOURCE_ROOT; };
+		BDFEBF5D2D834EA18DB97979 /* PathGuard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PathGuard.swift; path = OptimizadorMacM4/Shared/Security/PathGuard.swift; sourceTree = SOURCE_ROOT; };
+		2F691925778243F39FD87999 /* SecurityValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SecurityValidator.swift; path = OptimizadorMacM4/Shared/Security/SecurityValidator.swift; sourceTree = SOURCE_ROOT; };
+		8436A554E8CC47BF824EE633 /* CPUMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CPUMetrics.swift; path = OptimizadorMacM4/Shared/Models/CPUMetrics.swift; sourceTree = SOURCE_ROOT; };
+		F45F3BE15F62446CAC81B4FB /* CacheEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CacheEntry.swift; path = OptimizadorMacM4/Shared/Models/CacheEntry.swift; sourceTree = SOURCE_ROOT; };
+		92235392C1C34B8CAC4F125B /* MemoryMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MemoryMetrics.swift; path = OptimizadorMacM4/Shared/Models/MemoryMetrics.swift; sourceTree = SOURCE_ROOT; };
+		FA28EE4F9EA0434A9F90D418 /* ProcessGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProcessGroup.swift; path = OptimizadorMacM4/Shared/Models/ProcessGroup.swift; sourceTree = SOURCE_ROOT; };
+		90EF2B7B5579423795B26694 /* ProcessSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProcessSnapshot.swift; path = OptimizadorMacM4/Shared/Models/ProcessSnapshot.swift; sourceTree = SOURCE_ROOT; };
+		7290FDF6E492499B9E9FD58D /* AppLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppLogger.swift; path = OptimizadorMacM4/Shared/Utilities/AppLogger.swift; sourceTree = SOURCE_ROOT; };
+		22FEE4BB8AED4F4EA7D85F6C /* ByteFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ByteFormatter.swift; path = OptimizadorMacM4/Shared/Utilities/ByteFormatter.swift; sourceTree = SOURCE_ROOT; };
+		C0F76490C1234E57B01F8492 /* MemoryMetricsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MemoryMetricsTests.swift; path = OptimizadorMacM4Tests/MemoryMetricsTests.swift; sourceTree = SOURCE_ROOT; };
+		13D0E36EECCC487F92E58059 /* PathGuardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PathGuardTests.swift; path = OptimizadorMacM4Tests/PathGuardTests.swift; sourceTree = SOURCE_ROOT; };
+		DD44ECED1F62422A9F330532 /* ProcessFilterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProcessFilterTests.swift; path = OptimizadorMacM4Tests/ProcessFilterTests.swift; sourceTree = SOURCE_ROOT; };
+		6413ABF1F5C44802AE3863C2 /* ProcessGroupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProcessGroupTests.swift; path = OptimizadorMacM4Tests/ProcessGroupTests.swift; sourceTree = SOURCE_ROOT; };
+		74AE3FD91F1A4D719698C895 /* SecurityValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SecurityValidatorTests.swift; path = OptimizadorMacM4Tests/SecurityValidatorTests.swift; sourceTree = SOURCE_ROOT; };
+		3A6AB97809C04BBCAA500CF2 /* OptimizadorMacM4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OptimizadorMacM4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28677A481A874B77AE8232FE /* OptimizadorMacM4.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OptimizadorMacM4/OptimizadorMacM4.entitlements; sourceTree = SOURCE_ROOT; };
+		BE02300B86494EA0A8230BEA /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		25EFB458B3084D41842DFAF5 /* Products */ = {isa = PBXGroup; children = (3A6AB97809C04BBCAA500CF2 /* OptimizadorMacM4.app */); name = Products; sourceTree = "<group>"; };
+		ADE02CD9687B4799A18D9228 /* OptimizadorMacM4 */ = {isa = PBXGroup; children = (
+				B4519C86B9B8495C9A0B361C /* OptimizadorMacM4App.swift */,
+				0CF892707620475683AA3740 /* CacheCleanerView.swift */,
+				681FAAB0C3014737AAC5EE2C /* MainNavigationView.swift */,
+				B38237FD59A94880A7CC4172 /* MonitorDashboardView.swift */,
+				F058332571384B9EB143B8C5 /* ProcessManagerView.swift */,
+				20E1DB2061AB4B4680046CE6 /* ConfirmationSheet.swift */,
+				14BCD21A7D714F16A3FDA298 /* MetricCard.swift */,
+				F070F0E6377243EC92E9009C /* PageContainer.swift */,
+				F060C9DFF5604C0FA15C12BB /* ProcessActionButtons.swift */,
+				B332E669AD4C4C4D9A25C5FB /* CacheManagerService.swift */,
+				C32229B139574F48A86B50EA /* CacheScanner.swift */,
+				4E00A8087A3244BC909E7733 /* LaunchAgentManager.swift */,
+				C2463CAE9B3D4AA398873A77 /* ProcessFilter.swift */,
+				B08BA9E95F8C4F4686CDF658 /* ProcessManagerService.swift */,
+				E884EB2366B64516AA219FC9 /* ProcessTerminator.swift */,
+				FF576BBC6A2F4BC5AFE9E46B /* HostStatisticsReader.swift */,
+				F8E31E3ADCFB447796E7A560 /* ProcessEnumerator.swift */,
+				9E0B49DC3A6E425CA4D62E34 /* ResourceMonitorService.swift */,
+				F8ACE4616A9B4187982B71BB /* SysctlReader.swift */,
+				BDFEBF5D2D834EA18DB97979 /* PathGuard.swift */,
+				2F691925778243F39FD87999 /* SecurityValidator.swift */,
+				8436A554E8CC47BF824EE633 /* CPUMetrics.swift */,
+				F45F3BE15F62446CAC81B4FB /* CacheEntry.swift */,
+				92235392C1C34B8CAC4F125B /* MemoryMetrics.swift */,
+				FA28EE4F9EA0434A9F90D418 /* ProcessGroup.swift */,
+				90EF2B7B5579423795B26694 /* ProcessSnapshot.swift */,
+				7290FDF6E492499B9E9FD58D /* AppLogger.swift */,
+				22FEE4BB8AED4F4EA7D85F6C /* ByteFormatter.swift */,
+				28677A481A874B77AE8232FE /* OptimizadorMacM4.entitlements */,
+			); name = OptimizadorMacM4; sourceTree = "<group>"; };
+		DE213B0747F04B0E87218762 /* OptimizadorMacM4Tests */ = {isa = PBXGroup; children = (
+				C0F76490C1234E57B01F8492 /* MemoryMetricsTests.swift */,
+				13D0E36EECCC487F92E58059 /* PathGuardTests.swift */,
+				DD44ECED1F62422A9F330532 /* ProcessFilterTests.swift */,
+				6413ABF1F5C44802AE3863C2 /* ProcessGroupTests.swift */,
+				74AE3FD91F1A4D719698C895 /* SecurityValidatorTests.swift */,
+			); name = OptimizadorMacM4Tests; sourceTree = "<group>"; };
+		4BABEAF0D21B47A2935FD9A9 = {isa = PBXGroup; children = (ADE02CD9687B4799A18D9228 /* OptimizadorMacM4 */, DE213B0747F04B0E87218762 /* OptimizadorMacM4Tests */, 25EFB458B3084D41842DFAF5 /* Products */); sourceTree = "<group>"; };
+		6710111FEBA4462B8D64AC56 /* OptimizadorMacM4 */ = {isa = PBXNativeTarget; buildConfigurationList = E5E2B246BC52493989F8D07E; buildPhases = (16AF63DCE4414F26AB634F76 /* Sources */, BE02300B86494EA0A8230BEA /* Frameworks */, 014191E11F6640F297673241 /* Resources */); buildRules = (); dependencies = (); name = OptimizadorMacM4; productName = OptimizadorMacM4; productReference = 3A6AB97809C04BBCAA500CF2; productType = "com.apple.product-type.application"; };
+		344404BA831A467E9FAEAAF4 /* OptimizadorMacM4Tests */ = {isa = PBXNativeTarget; buildConfigurationList = DCBFE3EBA25B4E12AB380F55; buildPhases = (35355B6534C24BB09047E101 /* Sources */); buildRules = (); dependencies = (B9C1C87D948F43D0BE50DD74 /* PBXTargetDependency */); name = OptimizadorMacM4Tests; productName = OptimizadorMacM4Tests; productType = "com.apple.product-type.bundle.unit-test"; };
+		C147D570CB3C4C169774C0EA /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 1500; LastUpgradeCheck = 1500; TargetAttributes = {6710111FEBA4462B8D64AC56 = {CreatedOnToolsVersion = 15.0;}; 344404BA831A467E9FAEAAF4 = {CreatedOnToolsVersion = 15.0; TestTargetID = 6710111FEBA4462B8D64AC56;};};}; buildConfigurationList = 762ED57A025D491C93061C54; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = 4BABEAF0D21B47A2935FD9A9; productRefGroup = 25EFB458B3084D41842DFAF5; projectDirPath = ""; projectRoot = ""; targets = (6710111FEBA4462B8D64AC56 /* OptimizadorMacM4 */, 344404BA831A467E9FAEAAF4 /* OptimizadorMacM4Tests */); };
+		014191E11F6640F297673241 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		16AF63DCE4414F26AB634F76 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+				AF50D30645CE4838A9C66E8C /* OptimizadorMacM4App.swift in Sources */,
+				8F0D117169B84D0CA107CA36 /* CacheCleanerView.swift in Sources */,
+				12A832C2CB0B4F788CDBE4CE /* MainNavigationView.swift in Sources */,
+				84CBE84BED2D4E2889F0B7A9 /* MonitorDashboardView.swift in Sources */,
+				BB9374BCDF3047BBAF7EA7A3 /* ProcessManagerView.swift in Sources */,
+				29B86E4649864CBB999E0062 /* ConfirmationSheet.swift in Sources */,
+				FCA95C130037416195266B54 /* MetricCard.swift in Sources */,
+				328A35B9E53C43CFBFDFE6C4 /* PageContainer.swift in Sources */,
+				624ADE3CC55C4DA28D298644 /* ProcessActionButtons.swift in Sources */,
+				C0439F508CBB466ABFB94300 /* CacheManagerService.swift in Sources */,
+				B32DE4985F094BE3A824BC18 /* CacheScanner.swift in Sources */,
+				DCF1AD373C7D47E6A96619F4 /* LaunchAgentManager.swift in Sources */,
+				D46FDA6A371D4B498CCC7A01 /* ProcessFilter.swift in Sources */,
+				4A15CEA5064E4F3DAEDBADE7 /* ProcessManagerService.swift in Sources */,
+				D37A1EA25F6E450C9735E942 /* ProcessTerminator.swift in Sources */,
+				66A80A91715342198894384D /* HostStatisticsReader.swift in Sources */,
+				FF0C10CCA7634990BC509E93 /* ProcessEnumerator.swift in Sources */,
+				982BF1E79F0F40A88945CCEC /* ResourceMonitorService.swift in Sources */,
+				706A9A86802140578E141F05 /* SysctlReader.swift in Sources */,
+				E974C25AEA1949D7851B8324 /* PathGuard.swift in Sources */,
+				F65291C1FCE644B49D5CEE22 /* SecurityValidator.swift in Sources */,
+				141D564214704DC6B3D260E1 /* CPUMetrics.swift in Sources */,
+				429BE05D49FF4DBA80F12F86 /* CacheEntry.swift in Sources */,
+				A5121817A22B45C28FEC1096 /* MemoryMetrics.swift in Sources */,
+				91B1CA7D0B354807A378F9B2 /* ProcessGroup.swift in Sources */,
+				1D62853CA89E47019D45495C /* ProcessSnapshot.swift in Sources */,
+				8D02F07CA7084CA39D832197 /* AppLogger.swift in Sources */,
+				B9D065B80C9F46B69EB58693 /* ByteFormatter.swift in Sources */,
+			); runOnlyForDeploymentPostprocessing = 0; };
+		35355B6534C24BB09047E101 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+				781B99CA805A4D17A0771949 /* MemoryMetricsTests.swift in Sources */,
+				CCAC6D9F3C664417A9CDE980 /* PathGuardTests.swift in Sources */,
+				E064D2AC1C76463282CF5895 /* ProcessFilterTests.swift in Sources */,
+				B1431C1ADA14474F89A6880C /* ProcessGroupTests.swift in Sources */,
+				3EF8003E41C34585B296BC83 /* SecurityValidatorTests.swift in Sources */,
+			); runOnlyForDeploymentPostprocessing = 0; };
+		EF16AB4373CB4AAF9E54910B /* PBXContainerItemProxy */ = {isa = PBXContainerItemProxy; containerPortal = C147D570CB3C4C169774C0EA; proxyType = 1; remoteGlobalIDString = 6710111FEBA4462B8D64AC56; remoteInfo = OptimizadorMacM4; };
+		B9C1C87D948F43D0BE50DD74 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = 6710111FEBA4462B8D64AC56; targetProxy = EF16AB4373CB4AAF9E54910B; };
+		0E5318E4117941E395978B49 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_ENTITLEMENTS = OptimizadorMacM4/OptimizadorMacM4.entitlements; CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 1; ENABLE_HARDENED_RUNTIME = YES; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities"; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks"); MACOSX_DEPLOYMENT_TARGET = 14.0; MARKETING_VERSION = 0.0.1; PRODUCT_BUNDLE_IDENTIFIER = com.optimizador.macm4; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)"; SWIFT_OPTIMIZATION_LEVEL = "-Onone";}; name = Debug; };
+		A0A88035D11847BD88BCB169 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_ENTITLEMENTS = OptimizadorMacM4/OptimizadorMacM4.entitlements; CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 1; ENABLE_HARDENED_RUNTIME = YES; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities"; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks"); MACOSX_DEPLOYMENT_TARGET = 14.0; MARKETING_VERSION = 0.0.1; PRODUCT_BUNDLE_IDENTIFIER = com.optimizador.macm4; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0;}; name = Release; };
+		68338C7B03C944F8B51ECE59 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; MACOSX_DEPLOYMENT_TARGET = 14.0; PRODUCT_BUNDLE_IDENTIFIER = com.optimizador.macm4.tests; SWIFT_VERSION = 5.0; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OptimizadorMacM4.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OptimizadorMacM4"; BUNDLE_LOADER = "$(TEST_HOST)";}; name = Debug; };
+		1D5D94BEC0AA4FCCBD24F441 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; MACOSX_DEPLOYMENT_TARGET = 14.0; PRODUCT_BUNDLE_IDENTIFIER = com.optimizador.macm4.tests; SWIFT_VERSION = 5.0; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OptimizadorMacM4.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OptimizadorMacM4"; BUNDLE_LOADER = "$(TEST_HOST)";}; name = Release; };
+		636AF6DF2E95413FAFDBF864 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_TESTABILITY = YES; GCC_OPTIMIZATION_LEVEL = 0; ONLY_ACTIVE_ARCH = YES; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; MACOSX_DEPLOYMENT_TARGET = 14.0; SDKROOT = macosx; SWIFT_VERSION = 5.0;}; name = Debug; };
+		EF3C1270724B403C92210CD0 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = dwarf; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; SWIFT_COMPILATION_MODE = wholemodule; MACOSX_DEPLOYMENT_TARGET = 14.0; SDKROOT = macosx; SWIFT_VERSION = 5.0;}; name = Release; };
+		762ED57A025D491C93061C54 = {isa = XCConfigurationList; buildConfigurations = (636AF6DF2E95413FAFDBF864 /* Debug */, EF3C1270724B403C92210CD0 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		E5E2B246BC52493989F8D07E = {isa = XCConfigurationList; buildConfigurations = (0E5318E4117941E395978B49 /* Debug */, A0A88035D11847BD88BCB169 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		DCBFE3EBA25B4E12AB380F55 = {isa = XCConfigurationList; buildConfigurations = (68338C7B03C944F8B51ECE59 /* Debug */, 1D5D94BEC0AA4FCCBD24F441 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+	};
+	rootObject = C147D570CB3C4C169774C0EA /* Project object */;
+}
