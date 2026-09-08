@@ -27,6 +27,7 @@
 		F65291C1FCE644B49D5CEE22 /* SecurityValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F691925778243F39FD87999 /* SecurityValidator.swift */; };
 		141D564214704DC6B3D260E1 /* CPUMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436A554E8CC47BF824EE633 /* CPUMetrics.swift */; };
 		429BE05D49FF4DBA80F12F86 /* CacheEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45F3BE15F62446CAC81B4FB /* CacheEntry.swift */; };
+		A1B2C3D4E5F6478990ABCD01 /* StorageCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6478990ABCD02 /* StorageCategory.swift */; };
 		A5121817A22B45C28FEC1096 /* MemoryMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92235392C1C34B8CAC4F125B /* MemoryMetrics.swift */; };
 		91B1CA7D0B354807A378F9B2 /* ProcessGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA28EE4F9EA0434A9F90D418 /* ProcessGroup.swift */; };
 		1D62853CA89E47019D45495C /* ProcessSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EF2B7B5579423795B26694 /* ProcessSnapshot.swift */; };
@@ -60,6 +61,7 @@
 		2F691925778243F39FD87999 /* SecurityValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SecurityValidator.swift; path = OptimizadorMacM4/Shared/Security/SecurityValidator.swift; sourceTree = SOURCE_ROOT; };
 		8436A554E8CC47BF824EE633 /* CPUMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CPUMetrics.swift; path = OptimizadorMacM4/Shared/Models/CPUMetrics.swift; sourceTree = SOURCE_ROOT; };
 		F45F3BE15F62446CAC81B4FB /* CacheEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CacheEntry.swift; path = OptimizadorMacM4/Shared/Models/CacheEntry.swift; sourceTree = SOURCE_ROOT; };
+		A1B2C3D4E5F6478990ABCD02 /* StorageCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StorageCategory.swift; path = OptimizadorMacM4/Shared/Models/StorageCategory.swift; sourceTree = SOURCE_ROOT; };
 		92235392C1C34B8CAC4F125B /* MemoryMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MemoryMetrics.swift; path = OptimizadorMacM4/Shared/Models/MemoryMetrics.swift; sourceTree = SOURCE_ROOT; };
 		FA28EE4F9EA0434A9F90D418 /* ProcessGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProcessGroup.swift; path = OptimizadorMacM4/Shared/Models/ProcessGroup.swift; sourceTree = SOURCE_ROOT; };
 		90EF2B7B5579423795B26694 /* ProcessSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProcessSnapshot.swift; path = OptimizadorMacM4/Shared/Models/ProcessSnapshot.swift; sourceTree = SOURCE_ROOT; };
@@ -98,6 +100,7 @@
 				2F691925778243F39FD87999 /* SecurityValidator.swift */,
 				8436A554E8CC47BF824EE633 /* CPUMetrics.swift */,
 				F45F3BE15F62446CAC81B4FB /* CacheEntry.swift */,
+				A1B2C3D4E5F6478990ABCD02 /* StorageCategory.swift */,
 				92235392C1C34B8CAC4F125B /* MemoryMetrics.swift */,
 				FA28EE4F9EA0434A9F90D418 /* ProcessGroup.swift */,
 				90EF2B7B5579423795B26694 /* ProcessSnapshot.swift */,
@@ -141,6 +144,7 @@
 				F65291C1FCE644B49D5CEE22 /* SecurityValidator.swift in Sources */,
 				141D564214704DC6B3D260E1 /* CPUMetrics.swift in Sources */,
 				429BE05D49FF4DBA80F12F86 /* CacheEntry.swift in Sources */,
+				A1B2C3D4E5F6478990ABCD01 /* StorageCategory.swift in Sources */,
 				A5121817A22B45C28FEC1096 /* MemoryMetrics.swift in Sources */,
 				91B1CA7D0B354807A378F9B2 /* ProcessGroup.swift in Sources */,
 				1D62853CA89E47019D45495C /* ProcessSnapshot.swift in Sources */,
@@ -156,8 +160,8 @@
 			); runOnlyForDeploymentPostprocessing = 0; };
 		EF16AB4373CB4AAF9E54910B /* PBXContainerItemProxy */ = {isa = PBXContainerItemProxy; containerPortal = C147D570CB3C4C169774C0EA; proxyType = 1; remoteGlobalIDString = 6710111FEBA4462B8D64AC56; remoteInfo = OptimizadorMacM4; };
 		B9C1C87D948F43D0BE50DD74 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = 6710111FEBA4462B8D64AC56; targetProxy = EF16AB4373CB4AAF9E54910B; };
-		0E5318E4117941E395978B49 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_ENTITLEMENTS = OptimizadorMacM4/OptimizadorMacM4.entitlements; CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 1; ENABLE_HARDENED_RUNTIME = YES; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities"; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks"); MACOSX_DEPLOYMENT_TARGET = 14.0; MARKETING_VERSION = 0.0.1; PRODUCT_BUNDLE_IDENTIFIER = com.optimizador.macm4; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)"; SWIFT_OPTIMIZATION_LEVEL = "-Onone";}; name = Debug; };
-		A0A88035D11847BD88BCB169 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_ENTITLEMENTS = OptimizadorMacM4/OptimizadorMacM4.entitlements; CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 1; ENABLE_HARDENED_RUNTIME = YES; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities"; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks"); MACOSX_DEPLOYMENT_TARGET = 14.0; MARKETING_VERSION = 0.0.1; PRODUCT_BUNDLE_IDENTIFIER = com.optimizador.macm4; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0;}; name = Release; };
+		0E5318E4117941E395978B49 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_ENTITLEMENTS = OptimizadorMacM4/OptimizadorMacM4.entitlements; CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 1; ENABLE_HARDENED_RUNTIME = YES; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities"; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks"); MACOSX_DEPLOYMENT_TARGET = 14.0; MARKETING_VERSION = 0.0.2; PRODUCT_BUNDLE_IDENTIFIER = com.optimizador.macm4; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)"; SWIFT_OPTIMIZATION_LEVEL = "-Onone";}; name = Debug; };
+		A0A88035D11847BD88BCB169 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_ENTITLEMENTS = OptimizadorMacM4/OptimizadorMacM4.entitlements; CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 1; ENABLE_HARDENED_RUNTIME = YES; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities"; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks"); MACOSX_DEPLOYMENT_TARGET = 14.0; MARKETING_VERSION = 0.0.2; PRODUCT_BUNDLE_IDENTIFIER = com.optimizador.macm4; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0;}; name = Release; };
 		68338C7B03C944F8B51ECE59 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; MACOSX_DEPLOYMENT_TARGET = 14.0; PRODUCT_BUNDLE_IDENTIFIER = com.optimizador.macm4.tests; SWIFT_VERSION = 5.0; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OptimizadorMacM4.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OptimizadorMacM4"; BUNDLE_LOADER = "$(TEST_HOST)";}; name = Debug; };
 		1D5D94BEC0AA4FCCBD24F441 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; MACOSX_DEPLOYMENT_TARGET = 14.0; PRODUCT_BUNDLE_IDENTIFIER = com.optimizador.macm4.tests; SWIFT_VERSION = 5.0; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OptimizadorMacM4.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OptimizadorMacM4"; BUNDLE_LOADER = "$(TEST_HOST)";}; name = Release; };
 		636AF6DF2E95413FAFDBF864 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_TESTABILITY = YES; GCC_OPTIMIZATION_LEVEL = 0; ONLY_ACTIVE_ARCH = YES; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; MACOSX_DEPLOYMENT_TARGET = 14.0; SDKROOT = macosx; SWIFT_VERSION = 5.0;}; name = Debug; };

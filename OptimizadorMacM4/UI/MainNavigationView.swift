@@ -3,7 +3,7 @@ import SwiftUI
 enum AppSection: String, CaseIterable, Identifiable {
     case monitor = "Monitor"
     case processes = "Procesos"
-    case cache = "Limpieza"
+    case cache = "Almacenamiento"
 
     var id: String { rawValue }
 
@@ -48,7 +48,7 @@ struct MainNavigationView: View {
 
             Spacer()
 
-            Text("v0.0.1")
+            Text("v0.0.2")
                 .font(.caption2)
                 .foregroundStyle(.secondary)
                 .padding(.horizontal, 16)
